@@ -1,30 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Directory Picker Test</title>
-</head>
+<meta charset="UTF-8">
+<title>roadView</title>
+
+<link rel="icon" href="road.ico"></head>
 <body>
-    <h1>Directory Picker Test</h1>
-    <button id="pickDirectory">Select Directory</button>
-    <ul id="fileList"></ul>
 
-    <script>
-        document.getElementById("pickDirectory").addEventListener("click", async () => {
-            try {
-                const directoryHandle = await window.showDirectoryPicker();
-                document.getElementById("fileList").innerHTML = "";
+    <div id="upperBar">
+        <div id="connButton">
+            <button id="connect" class="bar-button">connect</button>
+            <button id="disconnect" class="bar-button">close</button>
+            <button id="openDir" class="bar-button">Select Dir</button>
+            <input type="text" id="dirName" name="dirName" value="XXX" required>
+            
+        </div>
 
-                for await (const [name, handle] of directoryHandle.entries()) {
-                    const listItem = document.createElement("li");
-                    listItem.textContent = `${handle.kind}: ${name}`;
-                    document.getElementById("fileList").appendChild(listItem);
-                }
-            } catch (error) {
-                console.error("Error selecting directory:", error);
-            }
-        });
-    </script>
-</body>
+        <div id="imageContainer"></div>
+
+        
+        <div id="dirsList">
+        </div>
+    </div>
+    
+    <div>
+        <hr>
+    </div>
+
+    <div id="image-grid"></div>
+
+<script defer src="bundle.js"></script></body>
 </html>

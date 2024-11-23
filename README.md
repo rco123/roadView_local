@@ -32,7 +32,7 @@
 *** 사용방법 동영상 참조 ***
 
 <video width="640" height="360" controls>
-  <source src="howto.mp4" type="video/mp4">
+  <source src="./howto.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 

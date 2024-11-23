@@ -30,9 +30,11 @@
 7) 도로의 진행방향을 지정하면, 파일의 뒷자리 각도 부분이 지정된 방향에 따라 각도가 변경된다.
 
 *** 사용방법 동영상 참조 ***
+  - `howto:`
+  https://youtu.be/VFQqeDorDZY
 
 <video width="640" height="360" controls>
-  <source src="./howto.mp4" type="video/mp4">
+  <source src="https://youtu.be/VFQqeDorDZY" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 

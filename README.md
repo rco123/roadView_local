@@ -1,10 +1,14 @@
-## roadview_local(도로이미지 라벨작업)
+## roadView_local(도로이미지 라벨작업)
 
 ### 1.주요기능
 
 - 도로이미지 라벨작업
+- 진행방향 각도 조절 기능
+- 각도를 포함한 파일명 변경 기능
+- 잘못된 촬영 이미지 삭제 기능
 - 인공지능 자율주행을 위한 도로 이미지 라벨 작업을 지원한다.
 - Rasnet 이미지 학습을 위하여 사용한다.
+
 
 ### 2. 이미지 라벨링
 
@@ -23,20 +27,18 @@
 
 4) 각 숫자의 단위는 3자리를 가지도록 한다.
 5) 다음 웹사이트로 접속 한다.  
-    https://rco123.github.io/roadview_local/
+    https://rco123.github.io/roadView_local/
 
 6) 이미지가 들어있는 디렉토리를 선택하고 해당 접속 버턴을 수행한다.
 
 7) 도로의 진행방향을 지정하면, 파일의 뒷자리 각도 부분이 지정된 방향에 따라 각도가 변경된다.
 
-*** 사용방법 동영상 참조 ***
-  - `howto:`
-  https://youtu.be/VFQqeDorDZY
+8) 사용하기 곤란한 이미지인 경우, 삭제 버턴을 클릭하여, 이미지 파일을 삭제한다.
 
-<video width="640" height="360" controls>
-  <source src="https://youtu.be/VFQqeDorDZY" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+*** 사용방법 동영상 참조 ***
+  - **howto:** https://youtu.be/VFQqeDorDZY
+
+
 
 
 
